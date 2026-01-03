@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Limitless - The truly limitless design subscription">
+    <title>Limitless - Design Subscription</title>
+
+    <!-- Fonts -->
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@500,700,900&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=instrument-serif@400,400-italic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav-fixed" id="nav">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#" class="logo">Limitless</a>
+
+                <div class="nav-links" id="navLinks">
+                    <a href="#about">About</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#process">Features</a>
+                    <a href="#pricing">Pricing</a>
+                    <div class="dropdown">
+                        <button class="dropdown-toggle" id="pagesDropdown">
+                            Pages
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                        </button>
+                        <div class="dropdown-menu" id="pagesMenu">
+                            <a href="#about">About</a>
+                            <a href="#blog">Blog</a>
+                            <a href="#tutorials">Tutorials</a>
+                            <a href="#contact">Contact</a>
+                            <a href="#legal">Legal</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-actions">
+                    <a href="#tutorials" class="btn-secondary-small">Tutorials</a>
+                    <a href="#contact" class="btn-primary-small">Book a call</a>
+                </div>
+
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container text-center">
+            <div class="hero-content animate-fade-up">
+                <div class="badge-green">
+                    <span class="green-dot"></span>
+                    Hurry, only 3 spots left.
+                </div>
+
+                <h1 class="hero-title">
+                    <span class="block">The truly</span>
+                    <span class="limitless-text">Limitless</span>
+                    <span class="block">design subscription.</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                    Say goodbye to expensive freelancers, and hello to limitless, lightning fast design.
+                </p>
+
+                <div class="hero-cta">
+                    <a href="#pricing" class="btn-primary">Book a call</a>
+                    <a href="#pricing" class="btn-secondary">See plans</a>
+                </div>
+
+                <div class="hero-image">
+                    <div class="hero-placeholder">Hero Graphic Here</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <section class="marquee bg-dark">
+        <div class="container">
+            <p class="marquee-label">Our designs are featured on:</p>
+        </div>
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <div class="marquee-item">G</div>
+                <div class="marquee-item">M</div>
+                <div class="marquee-item">A</div>
+                <div class="marquee-item">AZ</div>
+                <div class="marquee-item">F</div>
+                <div class="marquee-item">N</div>
+                <div class="marquee-item">T</div>
+                <div class="marquee-item">S</div>
+                <!-- Duplicated for seamless loop -->
+                <div class="marquee-item">G</div>
+                <div class="marquee-item">M</div>
+                <div class="marquee-item">A</div>
+                <div class="marquee-item">AZ</div>
+                <div class="marquee-item">F</div>
+                <div class="marquee-item">N</div>
+                <div class="marquee-item">T</div>
+                <div class="marquee-item">S</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section-padding" id="process">
+        <div class="container">
+            <div class="text-center mb-large">
+                <h2 class="section-title">Your designs, effortlessly.</h2>
+                <p class="section-subtitle">Three simple steps to limitless design</p>
+            </div>
+
+            <div class="grid-3">
+                <div class="card animate-scroll">
+                    <div class="card-icon">📝</div>
+                    <div class="card-number">01</div>
+                    <h3 class="card-title">Subscribe</h3>
+                    <p class="card-text">Subscribe to a plan & request as many designs as you'd like.</p>
+                </div>
+
+                <div class="card animate-scroll">
+                    <div class="card-icon">⚡</div>
+                    <div class="card-number">02</div>
+                    <h3 class="card-title">Receive</h3>
+                    <p class="card-text">Receive your design as fast as two business days on average.</p>
+                </div>
+
+                <div class="card animate-scroll">
+                    <div class="card-icon">✨</div>
+                    <div class="card-number">03</div>
+                    <h3 class="card-title">Revise</h3>
+                    <p class="card-text">We'll revise the designs until you're 100% satisfied.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--- Benefits Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="text-center mb-large">
+                <h2 class="section-title">Why choose us</h2>
+                <p class="section-subtitle">Everything you need in one subscription</p>
+            </div>
+
+            <div class="grid-3">
+                <div class="card animate-scroll">
+                    <div class="card-icon">⚡</div>
+                    <h3 class="card-title">Lightning Fast</h3>
+                    <p class="card-text">Get your designs delivered within 48 hours. No more waiting weeks for results.
+                    </p>
+                </div>
+
+                <div class="card animate-scroll">
+                    <div class="card-icon">🎨</div>
+                    <h3 class="card-title">Expert Designers</h3>
+                    <p class="card-text">Work with top-tier designers who have years of experience across all
+                        industries.</p>
+                </div>
+
+                <div class="card animate-scroll">
+                    <div class="card-icon">♾️</div>
+                    <h3 class="card-title">Unlimited Requests</h3>
+                    <p class="card-text">Submit as many design requests as you need. No limits, no hidden fees.</p>
+                </div>
+
+                <div class="card animate-scroll">
+                    <div class="card-icon">🔄</div>
+                    <h3 class="card-title">Unlimited Revisions</h3>
+                    <p class="card-text">Request as many revisions as needed until you're completely satisfied.</p>
+                </div>
+
+                <div class="card animate-scroll">
+                    <div class="card-icon">📱</div>
+                    <h3 class="card-title">All Design Types</h3>
+                    <p class="card-text">From web design to graphics, branding to UI/UX. We cover everything.</p>
+                </div>
+
+                <div class="card animate-scroll">
+                    <div class="card-icon">💎</div>
+                    <h3 class="card-title">Premium Quality</h3>
+                    <p class="card-text">Pixel-perfect designs that exceed industry standards every single time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section-padding bg-dark" id="pricing">
+        <div class="container">
+            <div class="text-center mb-large">
+                <h2 class="section-title">Simple, transparent pricing</h2>
+                <p class="section-subtitle">One plan, unlimited possibilities</p>
+            </div>
+
+            <div class="pricing-card">
+                <div class="pricing-price">
+                    <div class="price-amount">$2,989</div>
+                    <div class="price-period">/month</div>
+                </div>
+
+                <ul class="pricing-features">
+                    <li><svg class="check-icon" viewBox="0 0 24 24">
+                            <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" fill="none" />
+                        </svg>Unlimited design requests</li>
+                    <li><svg class="check-icon" viewBox="0 0 24 24">
+                            <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" fill="none" />
+                        </svg>Average 48 hours delivery</li>
+                    <li><svg class="check-icon" viewBox="0 0 24 24">
+                            <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" fill="none" />
+                        </svg>Unlimited revisions</li>
+                    <li><svg class="check-icon" viewBox="0 0 24 24">
+                            <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" fill="none" />
+                        </svg>Unlimited brands</li>
+                    <li><svg class="check-icon" viewBox="0 0 24 24">
+                            <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" fill="none" />
+                        </svg>Invite unlimited users</li>
+                    <li><svg class="check-icon" viewBox="0 0 24 24">
+                            <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" fill="none" />
+                        </svg>Pause or cancel anytime</li>
+                </ul>
+
+                <a href="#contact" class="btn-primary btn-full">Get started</a>
+
+                <div class="pricing-addon">
+                    <span>Framer Development</span>
+                    <span class="addon-price">+ $500</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section-padding" id="faq">
+        <div class="container-small">
+            <div class="text-center mb-large">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Everything you need to know</p>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Why wouldn't I just hire a full-time designer?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24">
+                            <path d="M12 4v16m8-8H4" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Good question! For starters, the annual cost of a full-time senior-level designer now exceeds
+                            $100,000, plus benefits (and good luck finding one available). Aside from that, you may not
+                            always have enough work to keep them busy at all times, so you're stuck paying for time you
+                            aren't able to utilize.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is there a limit to how many requests I can have?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24">
+                            <path d="M12 4v16m8-8H4" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Once subscribed, you're able to add as many design requests to your queue as you'd like, and
+                            they will be delivered one by one.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How fast will I receive my designs?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24">
+                            <path d="M12 4v16m8-8H4" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>On average, most requests are completed in just two business days or less. However, more
+                            complex requests can take longer.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Who are the designers?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24">
+                            <path d="M12 4v16m8-8H4" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You might be surprised to hear this, but Limitless is actually an agency of one. This means
+                            you'll work directly with me, founder of Limitless. However, power is in power-ups requests
+                            such as animations or custom illustrations are provided by partner designers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark" id="contact">
+        <div class="section-padding border-top">
+            <div class="container text-center">
+                <h2 class="section-title mb-medium">Ready to get started?</h2>
+                <p class="section-subtitle mb-large">Join hundreds of companies who trust us with their design needs</p>
+                <a href="#pricing" class="btn-primary btn-large">Book a call</a>
+            </div>
+        </div>
+
+        <div class="footer-content">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <h3 class="footer-logo">Limitless</h3>
+                        <p class="footer-text">Premium design subscription service for modern businesses</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4 class="footer-heading">Company</h4>
+                        <a href="#about">About</a>
+                        <a href="#blog">Blog</a>
+                        <a href="#pricing">Pricing</a>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4 class="footer-heading">Legal</h4>
+                        <a href="#legal">Privacy Policy</a>
+                        <a href="#legal">Terms of Service</a>
+                        <a href="#legal">Cookie Policy</a>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Limitless. All rights reserved. Designed with passion.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
